@@ -18,10 +18,10 @@ const NavbarSet = ({ onClick }: Props) => {
       </Link>
       <div className="navbar_second_group">
         <div className="languages">
-          <p className="font_weight600"> SK</p>
-          <Link href="https://www.lavastone.cz">
-            <p>CZ</p>
+          <Link href="https://www.lavastone.sk">
+            <p>SK</p>
           </Link>
+          <p className="font_weight600">CZ</p>
         </div>
 
         <Link href="/favourite" onClick={onClick}>

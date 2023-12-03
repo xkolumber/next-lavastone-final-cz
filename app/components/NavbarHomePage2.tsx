@@ -50,10 +50,10 @@ const NavbarHomePage2 = () => {
       </Link>
       <div className="navbar_second_group">
         <div className="languages ">
-          <p className="font_weight600"> SK</p>
-          <Link href="https://www.lavastone.cz">
-            <p className="">CZ</p>
+          <Link href="https://www.lavastone.sk">
+            <p> SK</p>
           </Link>
+          <p className="font_weight600">CZ</p>
         </div>
 
         <Link href="/favourite">
@@ -96,10 +96,10 @@ const NavbarHomePage2 = () => {
               </Link>
             </div>
             <div className="languages_mobile">
-              <p className="font_weight600"> SK</p>
-              <Link href="https://www.lavastone.cz">
-                <p>CZ</p>
+              <Link href="https://www.lavastone.sk">
+                <p> SK</p>
               </Link>
+              <p className="font_weight600">CZ</p>
             </div>
           </div>
         </div>

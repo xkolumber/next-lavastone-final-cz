@@ -23,11 +23,12 @@ const NavbarHomePage = () => {
   return (
     <div className={`navbar_homepage`}>
       <div className="navbar_second_group">
-        <div className="languages ">
-          <p className="text_ccc font_weight600"> SK</p>
-          <Link href="https://www.lavastone.cz">
-            <p className="text_ccc">CZ</p>
+        <div className="languages">
+          <Link href="https://www.lavastone.sk">
+            <p className="text_ccc"> SK</p>
           </Link>
+
+          <p className="text_ccc font_weight600">CZ</p>
         </div>
 
         <Link href="/favourite">
@@ -70,10 +71,11 @@ const NavbarHomePage = () => {
               </Link>
             </div>
             <div className="languages_mobile">
-              <p className="font_weight600"> SK</p>
-              <Link href="https://www.lavastone.cz">
-                <p>CZ</p>
+              <Link href="https://www.lavastone.sk">
+                <p> SK</p>
               </Link>
+
+              <p className="font_weight600">CZ</p>
             </div>
           </div>
         </div>

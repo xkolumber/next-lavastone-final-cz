@@ -94,17 +94,17 @@ const Navbar = () => {
       <div className="navbar_second_group">
         {productId === "3" ? (
           <div className="languages ">
-            <p className="text_ccc font_weight600"> SK</p>
-            <Link href="https://www.lavastone.cz">
-              <p className="text_ccc">CZ</p>
+            <Link href="https://www.lavastone.sk">
+              <p className="text_ccc">SK</p>
             </Link>
+            <p className="text_ccc font_weight600">CZ</p>
           </div>
         ) : (
           <div className="languages">
-            <p className="font_weight600">SK</p>
-            <Link href="https://www.lavastone.cz">
-              <p>CZ</p>
+            <Link href="https://www.lavastone.sk">
+              <p>SK</p>
             </Link>
+            <p className="font_weight600">CZ</p>
           </div>
         )}
 
@@ -156,10 +156,11 @@ const Navbar = () => {
                 </Link>
               </div>
               <div className="languages_mobile">
-                <p className="font_weight600"> SK</p>
-                <Link href="https://www.lavastone.cz">
-                  <p>CZ</p>
+                <Link href="https://www.lavastone.sk">
+                  <p className="font_weight600"> SK</p>
                 </Link>
+
+                <p className="font_weight600">CZ</p>
               </div>
             </div>
           </div>
