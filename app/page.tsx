@@ -5,14 +5,14 @@ import UniqueElement from "./components/UniqueElement";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Lavastone | Váš partner pre interiérový dizajn",
+  title: "Lavastone | Váš partner pro interiérový design",
   description:
-    "Vytvoríme dizajn a prevedenie, ktoré sofistikovaným spôsobom doplní váš interiér či exteriér.",
+    "Vytvoříme design a provedení, které sofistikovaným způsobem doplní váš interiér nebo exteriér.",
   keywords: ["Lavastone", "Interiérový dizajn"],
   openGraph: {
-    title: "Lavastone | Váš partner pre interiérový dizajn",
+    title: "Lavastone | Váš partner pro interiérový design",
     description:
-      "Vytvoríme dizajn a prevedenie, ktoré sofistikovaným spôsobom doplní váš interiér či exteriér.",
+      "Vytvoříme design a provedení, které sofistikovaným způsobem doplní váš interiér nebo exteriér.",
     images: [
       {
         url: "https://storage.googleapis.com/lavastone/uvod/uvod_foto.jpg",

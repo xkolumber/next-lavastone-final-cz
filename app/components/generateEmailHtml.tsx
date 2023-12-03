@@ -92,11 +92,11 @@ export const generateEmailHtml = ({ images }: EmailProps): string => {
         <img src="https://storage.googleapis.com/lavastone/uvod/logo_full_png.png" alt="Logo" class="email_logo" />
         </div>
         <p class="container_quoute">
-        "Spoločne vytvoríme dizajn a prevedenie, ktoré sofistikovaným spôsobom doplní váš interiér či exteriér.
-        Sme tu pre vás od fázy návrhu cez odporúčanie najvhodnejších materiálov až po moment realizácie, kedy nebudete mať slov."
+        "Společně vytvoříme návrh a provedení, které sofistikovaně doplní váš interiér nebo exteriér.
+        Od fáze návrhu, přes doporučení nejvhodnějších materiálů až po okamžik realizace jsme tu pro Vás, kdy nebudete mít slov."
         </p>
         <div class="thank-you">
-          <p>Tu sa nachádzajú Vaše obľúbené kúsky:</p>
+          <p>Tady jsou vaše oblíbené kousky:</p>
         </div>
         ${imagesHtml}
         <div class="questions">
