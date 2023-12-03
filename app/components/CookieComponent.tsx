@@ -58,17 +58,17 @@ const CookieComponent = () => {
       {showCookieComponent && (
         <div className="cookies_container">
           <p>
-            Súbory cookie používame na zlepšenie Vášho zážitku z prehliadania,
-            poskytovanie prispôsobených reklám alebo obsahu a analýzu našej
-            návštevnosti. Kliknutím na „Prijať všetko“ súhlasíte s naším
-            používaním súborov cookie.
+            Soubory cookie používáme ke zlepšení vašeho prohlížení, poskytovat
+            personalizované reklamy nebo obsah a analyzovat naše návštěvnosti.
+            Kliknutím na tlačítko "Přijmout vše" souhlasíte s našimi s
+            používáním souborů cookie.
           </p>
           <div className="cookies_button_container">
             <button className="btn btn--fourthiary" onClick={handleCustomize}>
-              Prispôsobiť
+              Přizpůsobení
             </button>
             <button className="btn btn--fourthiary" onClick={handleSetCookie}>
-              Prijať
+              Přijmout
             </button>
           </div>
         </div>
@@ -77,16 +77,16 @@ const CookieComponent = () => {
         <div className="cookie_settings_all">
           <div className="cookie_settings_modal">
             <div>
-              <h2> Prispôsobte cookies</h2>
+              <h2>Přizpůsobení souborů cookie</h2>
               <p className="cookie_setting_text">
-                Používame aj cookies tretích strán, ktoré nám pomáhajú
-                analyzovať, ako používate túto webovú stránku, ukladať vaše
-                preferencie a poskytovať obsah a reklamy, ktoré sú pre vás
-                relevantné. Tieto cookies budú uložené vo vašom prehliadači iba
-                s vaším predchádzajúcim súhlasom. Môžete sa rozhodnúť povoliť
-                alebo zakázať niektoré alebo všetky tieto súbory cookie, ale
-                zakázanie niektorých z nich môže ovplyvniť váš zážitok z
-                prehliadania.
+                Používáme také soubory cookie třetích stran, které nám pomáhají.
+                analyzovat, jak používáte tyto webové stránky, ukládat vaše
+                předvolby a poskytovat obsah a reklamy, které jsou pro vás
+                relevantní. relevantní pro vás. Tyto soubory cookie se ukládají
+                pouze ve vašem prohlížeči s vaším předchozím souhlasem. Můžete
+                se rozhodnout, zda chcete povolit nebo zakázat některé nebo
+                všechny tyto soubory cookie, ale zakázání některých z nich může
+                mít vliv na vaši zkušenost se službou prohlížení webu.
               </p>
               <div style={{ marginTop: "2rem" }}></div>
               <div className="cookie_all">

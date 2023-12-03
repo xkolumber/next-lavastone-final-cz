@@ -9,11 +9,11 @@ import { about_us, basic } from "../data/ProductsDataSk";
 export const metadata: Metadata = {
   title: "O nás",
   description:
-    "Naša vášeň pre interiérový dizajn nás viedla k objavovaniu nových materiálov a konceptov. Zasvätili sme sa vytváraniu jedinečných prvkov s dôrazom na dizajn, detail a materiálovú inováciu.",
+    "Naše vášeň pro interiérový design nás přivedla ke zkoumání nových materiálů a konceptů. Věnovali jsme se vytváření jedinečných prvků s důrazem na design, detail a inovaci materiálů.",
   openGraph: {
     title: "O nás",
     description:
-      "Naša vášeň pre interiérový dizajn nás viedla k objavovaniu nových materiálov a konceptov. Zasvätili sme sa vytváraniu jedinečných prvkov s dôrazom na dizajn, detail a materiálovú inováciu.",
+      "Naše vášeň pro interiérový design nás přivedla ke zkoumání nových materiálů a konceptů. Věnovali jsme se vytváření jedinečných prvků s důrazem na design, detail a inovaci materiálů.",
     images: [
       {
         url: "https://storage.googleapis.com/lavastone/o_nas/mainn.jpg",

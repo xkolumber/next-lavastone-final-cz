@@ -1,15 +1,13 @@
 import type { Metadata } from "next";
 import { Manrope } from "next/font/google";
-import { useRouter } from "next/router";
+import GoogleAnalyticsScript from "./GoogleAnalyticsScript";
+import CookieComponent from "./components/CookieComponent";
 import Footer from "./components/Footer";
+import HydrationZustand from "./components/HydrationZustand";
 import Navbar from "./components/Navbar";
+import ScrollButtonTop from "./components/ScrollButtonTop";
 import "./globals.css";
 import "./normalize.css";
-import HydrationZustand from "./components/HydrationZustand";
-import CookieComponent from "./components/CookieComponent";
-import ScrollButtonTop from "./components/ScrollButtonTop";
-import Head from "next/head";
-import GoogleAnalyticsScript from "./GoogleAnalyticsScript";
 
 const manrope = Manrope({
   weight: ["200", "300", "400", "600", "700"],
@@ -17,9 +15,9 @@ const manrope = Manrope({
 });
 
 export const metadata: Metadata = {
-  title: "Lavastone | Váš partner pre interiérový dizajn",
+  title: "Lavastone | Váš partner pro interiérový design",
   description:
-    "Vytvoríme dizajn a prevedenie, ktoré sofistikovaným spôsobom doplní Váš interiér či exteriér.",
+    "Vytvoříme design a provedení, které sofistikovaně doplní váš interiér nebo exteriér.",
 };
 
 export default function RootLayout({

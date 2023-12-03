@@ -3,10 +3,10 @@ import ContactForm from "../components/ContactForm";
 
 export const metadata: Metadata = {
   title: "Kontakt",
-  description: "Kontaktujte nás v prípade akejkoľvek otázky.",
+  description: "V případě dotazů nás prosím kontaktujte.",
   openGraph: {
     title: "Kontakt",
-    description: "Kontaktujte nás v prípade akejkoľvek otázky.",
+    description: "V případě dotazů nás prosím kontaktujte.",
     images: [
       {
         url: "https://storage.googleapis.com/lavastone/uvod/uvod_foto.jpg",

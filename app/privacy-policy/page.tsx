@@ -4,11 +4,11 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Ochrana osobných údajov",
-  description: "Ochrana Vašich údajov",
+  title: "Zásady ochrany osobních údajů",
+  description: "Ochrana Vašich údajů",
   openGraph: {
-    title: "Ochrana osobných údajov",
-    description: "Ochrana Vašich údajov",
+    title: "Zásady ochrany osobních údajů",
+    description: "Ochrana Vašich údajů",
   },
 };
 

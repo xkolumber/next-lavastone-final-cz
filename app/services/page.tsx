@@ -8,11 +8,11 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Naše služby",
   description:
-    "V LAVASTONE sa postaráme o kompletné zariadenie vášho domova dizajnovými kúskami.",
+    "Ve společnosti LAVASTONE se postaráme o kompletní vybavení vašeho domova designovými kousky",
   openGraph: {
     title: "Naše služby",
     description:
-      "V LAVASTONE sa postaráme o kompletné zariadenie vášho domova dizajnovými kúskami.",
+      "Ve společnosti LAVASTONE se postaráme o kompletní vybavení vašeho domova designovými kousky",
     images: [
       {
         url: "https://storage.googleapis.com/lavastone/sansone/main.jpg",
