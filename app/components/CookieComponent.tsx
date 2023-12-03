@@ -60,7 +60,7 @@ const CookieComponent = () => {
           <p>
             Soubory cookie používáme ke zlepšení vašeho prohlížení, poskytovat
             personalizované reklamy nebo obsah a analyzovat naše návštěvnosti.
-            Kliknutím na tlačítko "Přijmout vše" souhlasíte s našimi s
+            Kliknutím na tlačítko „Přijmout vše“ souhlasíte s našimi s
             používáním souborů cookie.
           </p>
           <div className="cookies_button_container">
