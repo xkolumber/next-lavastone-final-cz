@@ -223,7 +223,7 @@ const Page = () => {
                       loading={isLoading}
                     />
                   ) : (
-                    "Odoslať"
+                    "Odeslat"
                   )}
                 </button>
               </form>
@@ -234,7 +234,7 @@ const Page = () => {
           <div>
             <div className="popup_email" ref={popupRef2}>
               <p className="popup_text">
-                POSLALI SME VÁM DIZAJNY, KTORÉ STE SI ZAMILOVALI
+                POSLALI JSME VÁM NÁVRHY, KTERÉ JSTE SI ZAMILOVALI.
               </p>
               {errors.email && (
                 <p className="error_message">{errors.email.message}</p>
@@ -242,7 +242,7 @@ const Page = () => {
               <div>
                 {" "}
                 <button className="btn btn--secondary" onClick={closeAll}>
-                  Naspať
+                  Zpět
                 </button>
               </div>
             </div>

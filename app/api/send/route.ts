@@ -12,7 +12,7 @@ export async function POST(req: NextRequest) {
     const data = await resend.emails.send({
       from: "hello@lavastone.sk",
       to: email,
-      subject: "Lavastone | Obľúbené kúsky",
+      subject: "Lavastone | Oblíbené kousky",
       html: emailHtml,
     });
 
