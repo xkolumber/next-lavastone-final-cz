@@ -66,8 +66,8 @@ export const products = [
     title: "Pietracolata",
     title_image: 'https://storage.googleapis.com/lavastone/pietracolata/main.jpg',
     title_description: "Zvýraznění interiéru se vzhledem lávového kamene, za kterým se skrývá jedinečný příběh. Nabízené značky jsou pečlivě vybírány podle vkusu našich zákazníků.",
-    second_title: 'Vzdálená Sicílie',
-    second_title_description: 'PIETRACOLATA z daleké Sicílie přetváří proud žhavé lávy sopky Etny do hmatatelného designu, který neuvěřitelným způsobem oživí každý interiér. Kouzlo zrozené ze zpracování sicilské lávy, obohacené o sítotisk nebo exkluzivní materiály, vytváří jedinečný a neopakovatelný pocit při každém jednotlivém použití.',
+    second_title: 'Sicílie',
+    second_title_description: 'PIETRACOLATA ze Sicílie přetváří proud žhavé lávy sopky Etny do hmatatelného designu, který neuvěřitelným způsobem oživí každý interiér. Kouzlo zrozené ze zpracování sicilské lávy, obohacené o sítotisk nebo exkluzivní materiály, vytváří jedinečný a neopakovatelný pocit při každém jednotlivém použití.',
     toggles: [
       {
           id: 1,

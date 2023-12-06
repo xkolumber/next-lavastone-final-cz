@@ -26,7 +26,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="sk">
+    <html lang="cz">
       <GoogleAnalyticsScript />
       <body className={manrope.className}>
         <HydrationZustand>
